@@ -5,7 +5,6 @@ body {
 	background-color: #888380;
 }
 
-
 /*Global*/
 
 .container {
@@ -15,6 +14,7 @@ body {
 }
 
 /*Header*/
+
 header {
 	background: #343434;
 	color: #ffffff;
@@ -22,25 +22,21 @@ header {
 	min-height: 70px;
 	border-bottom: 3px solid #427fab;
 }
-
 header a {
 	text-decoration: none;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 16px;
 }
-
 header ul {
 	margin: none;
 	padding: none;
 }
-
 header li {
 	float: left;
 	display: inline;
 	padding: 0 20px 0 20px;
 }
-
 
 
 
