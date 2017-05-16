@@ -10,7 +10,7 @@ gulp.task('html', function() {
 gulp.task('styles', function() {
 	return gulp.src('./app/assets/styles/style.css')
 	.pipe(postcss([autoprefixer]))
-	.pipe(gulp.dest('./app/temp/styles'));
+	.pipe(gulp.dest('./app/post_ap_css/styles'));
 });
 
 

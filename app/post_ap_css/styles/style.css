@@ -3,6 +3,8 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #888380;
+	-webkit-columns: 300px 2;
+	        columns: 300px 2;
 }
 
 /*Global*/
