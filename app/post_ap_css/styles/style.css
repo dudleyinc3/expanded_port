@@ -15,6 +15,11 @@ body {
 	overflow: hidden;
 }
 
+ul {
+	margin: none;
+	padding: none;
+}
+
 /*Header*/
 
 header {
@@ -30,21 +35,41 @@ header a {
 	text-transform: uppercase;
 	font-size: 16px;
 }
-header ul {
-	margin: none;
-	padding: none;
-}
+
 header li {
 	float: left;
 	display: inline;
 	padding: 0 20px 0 20px;
 }
 
+header #name {
+	float: left;
+}
 
+header #name h1 {
+	margin: 0;
+}
 
+header nav {
+	float: right;
+}
 
+header .current a {
+	color: #017dc3;
+	font-weight: bold;
+}
 
+header a:hover {
+	color: #0a97b2;
+	font-weight: bold;
+}
 
+/*Showcase*/
+
+#showcase {
+	min-height: 400px;
+	background-image: url("../images/light.jpg");
+}
 
 
 
