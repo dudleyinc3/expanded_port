@@ -1,5 +1,5 @@
 /*$mainGray: #888380;*/
-
+/*$mainBlue: #017dc3;*/
 body {
 	font: 15px/1.5 oswald, arial;
 	padding: 0;
@@ -49,14 +49,22 @@ header #name {
 
 header #name h1 {
 	margin: 0;
+	color: #017dc3;	
+}
+
+header #name h3 {
+	padding-top: 0;
+	margin-top: 0;
+	color: #e3e3e3;	
 }
 
 header nav {
 	float: right;
+	padding-bottom: 0;
 }
 
 header .current a {
-	color: #017dc3;
+	color: #29b1ff;
 	font-weight: bold;
 }
 
@@ -73,9 +81,20 @@ header a:hover {
 	text-align: center;
 }
 
+h1 {
+	color: #ff723d;
+	font-size: 42px;
+}
+
 p {
 	color: orange;
 	font-size: 24px; 
+}
+
+header a {
+	color: #017dc3;
+	font-size: 24px;
+	padding-top: 25px; 
 }
  
 
