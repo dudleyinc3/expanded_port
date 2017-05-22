@@ -10,14 +10,14 @@ body {
 /*Global*/
 
 .container {
-	width: 80%;
+	width: 85%;
 	margin: auto;
 	overflow: hidden;
 }
 
 ul {
 	margin: none;
-	padding: none;
+	padding-top: 40px;
 }
 
 /*Header*/
@@ -28,7 +28,7 @@ header {
 	color: #ffffff;
 	padding-top: 25px;
 	min-height: 70px;
-	border-bottom: 3px solid #427fab;
+	border-bottom: 5px solid #427fab;
 }
 header a {
 	text-decoration: none;
@@ -81,13 +81,14 @@ header a:hover {
 	text-align: center;
 }
 
-h1 {
-	color: #ff723d;
-	font-size: 42px;
+#showcase h1 {
+	padding-top: 50px;
+	color: #ff9900;
+	font-size: 52px;
 }
 
 p {
-	color: orange;
+	color: #f1c75c;
 	font-size: 24px; 
 }
 
@@ -97,7 +98,11 @@ header a {
 	padding-top: 25px; 
 }
  
+/*Boxes*/
 
+#boxes {
+	margin-top: 20px;
+}
 
 
 
