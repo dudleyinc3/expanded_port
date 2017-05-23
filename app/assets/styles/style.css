@@ -28,7 +28,7 @@ header {
 	background: #343434;
 	color: #ffffff;
 	min-height: 70px;
-	border-bottom: 5px solid #427fab;
+	border-bottom: #427fab 5px solid;
 }
 header a {
 	text-decoration: none;
@@ -108,10 +108,11 @@ header a {
 
 #boxes .box {
 	float: left;
-	width: 25%;
 	text-align: center;
+	width: 25%;
 	padding-top: 10px;
 }
+
 #boxes .box img {
 	width: 50%;
 }
@@ -120,12 +121,25 @@ header a {
 	width: 95%;
 }
 
+/*Languages bar*/
 
 li {
 	display: inline;
 	padding-right: 50px;
 	font-size: 22px;
 }
+
+/*Footer*/
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #343434;
+  text-align: center;
+}
+
+
 
 
 
