@@ -15,14 +15,7 @@ body {
 	overflow: hidden;
 }
 
-ul {
-	margin: none;
-	padding-top: 40px;
-	text-align: center;
-}
-
 /*Header*/
-
 
 header {
 	background: #343434;
@@ -99,6 +92,22 @@ header a {
 	padding-top: 20px; 
 	padding-bottom: 20px;
 }
+
+/*Languages bar*/
+
+ul {
+	margin: none;
+	padding-top: 40px;
+	text-align: center;
+	color: blue;
+}
+
+
+li {
+	display: inline;
+	padding-right: 50px;
+	font-size: 22px;
+}
  
 /*Boxes*/
 
@@ -106,28 +115,28 @@ header a {
 	margin-top: 20px;
 }
 
+#boxes .container{
+	width: 95%;
+}
+
 #boxes .box {
 	float: left;
 	text-align: center;
 	width: 25%;
 	padding-top: 10px;
+	margin: 0;
+	padding: 0;
+}
+.box img {
+	/*width : 50%;*/
+	width: 150px;
+    height : 90px;
+    display:inline-block;
+    display:inline-block;
 }
 
-#boxes .box img {
-	width: 50%;
-}
 
-#boxes .container{
-	width: 95%;
-}
 
-/*Languages bar*/
-
-li {
-	display: inline;
-	padding-right: 50px;
-	font-size: 22px;
-}
 
 /*Footer*/
 
@@ -138,6 +147,7 @@ footer{
   background-color: #343434;
   text-align: center;
 }
+
 
 
 
