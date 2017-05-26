@@ -1,0 +1,51 @@
+/*Global*/
+
+body {
+	font-family: oswald, arial;
+	margin: auto;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	min-height: 70px;
+	background-color: blue;
+	border-bottom: solid purple 5px;
+	margin: 0;
+}
+
+#name {
+	width: 50%
+}
+
+#name h1 {
+	padding-top: 15px;
+	margin: 0;
+}
+
+#name h3 {
+	font-size: 25px;
+	margin: auto;
+}
+
+#links li{
+	float: right;
+	display: inline;
+	padding-right: 15px;
+	position: relative;
+	top: -25px;
+}
+
+#links ul {
+	width: 27%;
+    display:inline;
+    padding-bottom: 0;
+    margin: 0;
+    float: right;
+}
+
+
+

@@ -1,6 +1,6 @@
 /*$mainGray: #888380;*/
 /*$mainBlue: #017dc3;*/
-body {
+/*body {
 	font: 15px/1.5 oswald, arial;
 	padding: 0;
 	margin: 0;
@@ -9,7 +9,7 @@ body {
 
 /*Global*/
 
-.container {
+/*.container {
 	width: 85%;
 	margin: auto;
 	overflow: hidden;
@@ -17,7 +17,7 @@ body {
 
 /*Header*/
 
-header {
+/*header {
 	background: #343434;
 	color: #ffffff;
 	min-height: 70px;
@@ -31,9 +31,11 @@ header a {
 }
 
 header li {
-	float: left;
-	display: inline;
-	padding: 0 20px 0 20px;
+	width: 27%;
+    height : 90px;
+    display:inline-block;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 header #name {
@@ -54,7 +56,9 @@ header #name h3 {
 
 header nav {
 	float: right;
-	padding-bottom: 17px;
+	display: inline;
+	margin: 0;
+
 }
 
 header .current a {
@@ -69,7 +73,7 @@ header a:hover {
 
 /*Showcase*/
 
-#showcase {
+/*#showcase {
 	min-height: 400px;
 	background: url("../images/dpg1 copy.jpg")no-repeat 0 -300px;
 	text-align: center;
@@ -88,31 +92,37 @@ header a:hover {
 
 header a {
 	color: #017dc3;
-	font-size: 24px;
-	padding-top: 20px; 
-	padding-bottom: 20px;
+	font-size: 24px; 
 }
 
 /*Languages bar*/
 
-ul {
+/*.container #skills {
+	width: 95%;
+}
+
+#skills ul {
 	margin: none;
-	padding-top: 40px;
+	padding-top: 10px;
 	text-align: center;
-	color: blue;
+	padding-left: 0;
+	width: 100%;
 }
 
 
-li {
+li {	
 	display: inline;
-	padding-right: 50px;
-	font-size: 22px;
+	font-size: 18px;
+	color: blue;
+	float: left;
+	width: 25%;
+	
 }
  
 /*Boxes*/
 
-#boxes {
-	margin-top: 20px;
+/*#boxes {
+	margin-top: 1px;
 }
 
 #boxes .container{
@@ -128,10 +138,8 @@ li {
 	padding: 0;
 }
 .box img {
-	/*width : 50%;*/
 	width: 150px;
     height : 90px;
-    display:inline-block;
     display:inline-block;
 }
 
@@ -140,7 +148,7 @@ li {
 
 /*Footer*/
 
-footer{
+/*footer{
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
@@ -148,8 +156,14 @@ footer{
   text-align: center;
 }
 
-
-
+.links {
+	float: right;
+	display: inline;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+*/
 
 
 
